@@ -30,6 +30,7 @@ import { LanguageService } from '../../services/language.service';
       </div>
       <div class="container footer-bottom">
         <span>© 2026 Nova Digital</span>
+        <span>Designed & Developed by Mahmoud Farrag</span>
         <span>{{ lang.t('tagline') }}</span>
       </div>
     </footer>
