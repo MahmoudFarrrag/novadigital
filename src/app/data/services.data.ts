@@ -4,7 +4,7 @@ export const services: ServiceItem[] = [
   {
     slug: 'website-development',
     icon: 'WEB',
-    image: '/assets/images/services/website-development.png',
+    image: 'assets/images/services/website-development.png',
     title: { en: 'Website Development', ar: 'تطوير المواقع' },
     shortDescription: {
       en: 'Premium, responsive websites that present your brand clearly and turn visitors into real enquiries.',
@@ -49,7 +49,7 @@ export const services: ServiceItem[] = [
   {
     slug: 'dashboards-admin-panels',
     icon: 'DASH',
-    image: '/assets/images/services/dashboard.png',
+    image: 'assets/images/services/dashboard.png',
     title: { en: 'Dashboards & Admin Panels', ar: 'لوحات التحكم والإدارة' },
     shortDescription: {
       en: 'Custom dashboards that make daily operations clearer, faster, and easier to manage.',
@@ -92,7 +92,7 @@ export const services: ServiceItem[] = [
   {
     slug: 'mobile-applications',
     icon: 'APP',
-    image: '/assets/images/services/mobile-app.png',
+    image: 'assets/images/services/mobile-app.png',
     title: { en: 'Mobile Applications', ar: 'تطبيقات الجوال' },
     shortDescription: {
       en: 'Practical mobile app experiences for customers, staff, bookings, orders, and operations.',
@@ -135,7 +135,7 @@ export const services: ServiceItem[] = [
   {
     slug: 'e-commerce',
     icon: 'SHOP',
-    image: '/assets/images/services/ecommerce.png',
+    image: 'assets/images/services/ecommerce.png',
     title: { en: 'E-commerce Stores', ar: 'المتاجر الإلكترونية' },
     shortDescription: {
       en: 'Online stores built for product discovery, orders, offers, payments, and growth.',
@@ -178,7 +178,7 @@ export const services: ServiceItem[] = [
   {
     slug: 'system-integration',
     icon: 'API',
-    image: '/assets/images/services/crm.png',
+    image: 'assets/images/services/crm.png',
     title: { en: 'System Integration', ar: 'تكامل الأنظمة' },
     shortDescription: {
       en: 'Connect websites, apps, dashboards, CRMs, and third-party services into one cleaner workflow.',
@@ -221,7 +221,7 @@ export const services: ServiceItem[] = [
   {
     slug: 'hosting-maintenance',
     icon: 'CARE',
-    image: '/assets/images/services/hosting.png',
+    image: 'assets/images/services/hosting.png',
     title: { en: 'Hosting & Maintenance', ar: 'الاستضافة والصيانة' },
     shortDescription: {
       en: 'Reliable launch, hosting setup, SSL, updates, monitoring, fixes, and support after delivery.',

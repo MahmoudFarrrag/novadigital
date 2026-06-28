@@ -10,7 +10,7 @@ import { LanguageService } from '../../services/language.service';
       <div class="container footer-grid">
         <div>
           <a class="brand footer-brand" routerLink="/">
-            <img src="/assets/images/logo/nova.PNG" alt="Nova Digital logo" (error)="hideImage($event)" />
+            <img src="assets/images/logo/nova.PNG" alt="Nova Digital logo" (error)="hideImage($event)" />
             <span>Nova Digital</span>
           </a>
           <p>{{ lang.t('arabicSlogan') }}</p>

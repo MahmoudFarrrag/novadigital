@@ -3,7 +3,7 @@ import { ProjectItem } from '../core/models/site.models';
 export const projects: ProjectItem[] = [
   {
     slug: 'miracle',
-    image: '/assets/images/projects/miracle.jpg',
+    image: 'assets/images/projects/miracle.jpg',
     name: { en: 'MIRACLE', ar: 'MIRACLE' },
     category: { en: 'Investment Website', ar: 'موقع استثماري' },
     problem: {
@@ -42,7 +42,7 @@ export const projects: ProjectItem[] = [
   },
   {
     slug: 'esaal-store',
-    image: '/assets/images/projects/esaal-store.jpg',
+    image: 'assets/images/projects/esaal-store.jpg',
     name: { en: 'Esaal Store', ar: 'Esaal Store' },
     category: { en: 'E-commerce', ar: 'متجر إلكتروني' },
     problem: {
@@ -81,7 +81,7 @@ export const projects: ProjectItem[] = [
   },
   {
     slug: 'al-kashim',
-    image: '/assets/images/projects/al-kashim.jpeg',
+    image: 'assets/images/projects/al-kashim.jpeg',
     name: { en: 'Al Kashim', ar: 'Al Kashim' },
     category: { en: 'Workforce Contracting', ar: 'تعاقدات القوى العاملة' },
     problem: {
@@ -120,7 +120,7 @@ export const projects: ProjectItem[] = [
   },
   {
     slug: 'wajad',
-    image: '/assets/images/projects/wajad.jpeg',
+    image: 'assets/images/projects/wajad.jpeg',
     name: { en: 'WAJAD', ar: 'WAJAD' },
     category: { en: 'Education Platform', ar: 'منصة تعليمية' },
     problem: {
@@ -159,7 +159,7 @@ export const projects: ProjectItem[] = [
   },
   {
     slug: 'maktabty',
-    image: '/assets/images/projects/maktabty.jpg',
+    image: 'assets/images/projects/maktabty.jpg',
     name: { en: 'Maktabty', ar: 'Maktabty' },
     category: { en: 'Reading Community', ar: 'مجتمع قراءة' },
     problem: {
@@ -198,7 +198,7 @@ export const projects: ProjectItem[] = [
   },
   {
     slug: 'ganatak',
-    image: '/assets/images/projects/ganatak.jpeg',
+    image: 'assets/images/projects/ganatak.jpeg',
     name: { en: 'Ganatak', ar: 'Ganatak' },
     category: { en: 'Agriculture Website', ar: 'موقع زراعة ونباتات' },
     problem: {
@@ -237,7 +237,7 @@ export const projects: ProjectItem[] = [
   },
   {
     slug: 'Portfolio',
-    image: '/assets/images/projects/capture.png',
+    image: 'assets/images/projects/capture.png',
     name: { en: 'Mahmoud Farrag', ar: 'Mahmoud Farrag' },
     category: { en: 'Portfolio Website', ar: 'موقع بورتفوليو' },
     problem: {
@@ -277,7 +277,7 @@ export const projects: ProjectItem[] = [
   },
   {
     slug: 'react-prayer-time',
-    image: '/assets/images/projects/react.png',
+    image: 'assets/images/projects/react.png',
     name: { en: 'React Prayer Time', ar: 'React Prayer Time' },
     category: { en: 'Prayer Time App', ar: 'تطبيق مواقيت الصلاة' },
     problem: {
@@ -316,7 +316,7 @@ export const projects: ProjectItem[] = [
   },
   {
     slug: 'matlop',
-    image: '/assets/images/projects/matlop.jpeg',
+    image: 'assets/images/projects/matlop.jpeg',
     name: { en: 'Matlop', ar: 'Matlop' },
     category: { en: 'Service Marketplace', ar: 'منصة خدمات' },
     problem: {
