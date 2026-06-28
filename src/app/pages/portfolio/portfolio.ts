@@ -11,7 +11,7 @@ import { ProjectCard } from '../../shared/components/project-card/project-card';
       <div class="container">
         <span class="eyebrow">{{ lang.t('portfolio') }}</span>
         <h1>{{ lang.t('portfolioPreview') }}</h1>
-        <p>{{ lang.current() === 'en' ? 'Dummy portfolio projects for now, structured for future API integration.' : 'أعمال تجريبية مؤقتة ومنظمة للربط لاحقًا مع API.' }}</p>
+        <p>{{ lang.current() === 'en' ? 'Explore selected websites, stores, apps, and platforms with live links where available.' : 'استعرض نماذج مختارة من المواقع والمتاجر والتطبيقات والمنصات مع روابط الزيارة عند توفرها.' }}</p>
       </div>
     </section>
     <section class="section container">

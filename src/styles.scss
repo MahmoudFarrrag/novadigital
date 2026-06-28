@@ -420,6 +420,17 @@ body:dir(rtl) .service-media span {
   font-weight: 800;
 }
 
+.link-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  align-items: center;
+}
+
+.visit-link {
+  color: var(--gold);
+}
+
 .muted-section {
   background: rgba(255, 255, 255, 0.035);
   border-block: 1px solid var(--border);

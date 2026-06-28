@@ -25,14 +25,14 @@ import { CtaSection } from '../../shared/components/cta-section/cta-section';
             <a class="btn btn-primary" routerLink="/contact">{{ lang.t('startProject') }}</a>
             <a class="btn btn-secondary" routerLink="/services">{{ lang.t('viewServices') }}</a>
           </div>
-        </div>
+        </div>    
         <div class="hero-panel reveal">
           <div class="orbit-card main-stat">
-            <span>Digital Growth</span>
-            <strong>Web • CRM • Commerce</strong>
+            <span>{{ lang.current() === 'en' ? 'Digital Growth' : 'نمو رقمي' }}</span>
+<strong>{{ lang.current() === 'en' ? 'Web • Dashboards • Apps' : 'مواقع • لوحات تحكم • تطبيقات' }}</strong>
           </div>
-          <div class="metric-card"><strong>9+</strong><span>{{ lang.t('services') }}</span></div>
-          <div class="metric-card"><strong>6</strong><span>{{ lang.t('portfolio') }}</span></div>
+          <div class="metric-card"><strong>6</strong><span>{{ lang.t('services') }}</span></div>
+          <div class="metric-card"><strong>9</strong><span>{{ lang.t('portfolio') }}</span></div>
           <div class="metric-card accent"><strong>24/7</strong><span>{{ lang.t('contact') }}</span></div>
         </div>
       </div>
@@ -69,7 +69,7 @@ import { CtaSection } from '../../shared/components/cta-section/cta-section';
     </section>
 
     <section class="section container">
-      <app-section-title [eyebrow]="lang.t('portfolio')" [title]="lang.t('portfolioPreview')" [text]="lang.current() === 'en' ? 'Dummy projects prepared for launch, ready to replace with real Laravel API data later.' : 'نماذج مؤقتة جاهزة للاستبدال لاحقًا ببيانات Laravel API.'" />
+      <app-section-title [eyebrow]="lang.t('portfolio')" [title]="lang.t('portfolioPreview')" [text]="lang.current() === 'en' ? 'A selection of websites, apps, stores, and platforms delivered across business, education, commerce, and service sectors.' : 'مجموعة من مواقع وتطبيقات ومتاجر ومنصات رقمية لقطاعات الأعمال والتعليم والتجارة والخدمات.'" />
       <div class="cards-grid three">
         @for (project of featuredProjects; track project.slug) {
           <app-project-card [project]="project" />
@@ -107,7 +107,7 @@ import { CtaSection } from '../../shared/components/cta-section/cta-section';
 export class Home {
   readonly lang = inject(LanguageService);
   readonly featuredServices = services.slice(0, 6);
-  readonly featuredProjects = projects.slice(0, 3);
+  readonly featuredProjects = projects;
   readonly industriesList = industries;
 
   get whyText(): string {

@@ -15,7 +15,9 @@ import { CtaSection } from '../../shared/components/cta-section/cta-section';
             <span class="eyebrow">{{ lang.t('projectDetails') }}</span>
             <h1>{{ lang.text(item.name) }}</h1>
             <p>{{ lang.text(item.result) }}</p>
-            <a class="btn btn-primary" [href]="item.demoLink">{{ lang.t('demo') }}</a>
+            @if (item.demoLink !== '#') {
+              <a class="btn btn-primary" [href]="item.demoLink" target="_blank" rel="noopener">{{ lang.t('visitProject') }}</a>
+            }
           </div>
           <div class="detail-media">
             <img [src]="item.image" [alt]="lang.text(item.name)" (error)="hideImage($event)" />

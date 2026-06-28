@@ -15,7 +15,14 @@ import { LanguageService } from '../../../core/services/language.service';
         <span class="pill-label">{{ lang.text(project().category) }}</span>
         <h3>{{ lang.text(project().name) }}</h3>
         <p>{{ lang.text(project().result) }}</p>
-        <a class="text-link" [routerLink]="['/portfolio', project().slug]">{{ lang.t('learnMore') }}</a>
+        <div class="link-actions">
+          <a class="text-link" [routerLink]="['/portfolio', project().slug]">{{ lang.t('learnMore') }}</a>
+          @if (project().demoLink !== '#') {
+            <a class="text-link visit-link" [href]="project().demoLink" target="_blank" rel="noopener">
+              {{ lang.t('visitProject') }}
+            </a>
+          }
+        </div>
       </div>
     </article>
   `,

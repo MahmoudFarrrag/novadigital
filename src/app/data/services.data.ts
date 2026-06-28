@@ -3,40 +3,40 @@ import { ServiceItem } from '../core/models/site.models';
 export const services: ServiceItem[] = [
   {
     slug: 'website-development',
-    icon: 'WD',
-    image: '/assets/images/services/website-development.jpg',
+    icon: 'WEB',
+    image: '/assets/images/services/website-development.png',
     title: { en: 'Website Development', ar: 'تطوير المواقع' },
     shortDescription: {
-      en: 'Fast, responsive websites built to present your brand and convert visitors.',
-      ar: 'مواقع سريعة ومتجاوبة تعرض علامتك التجارية وتحول الزوار إلى عملاء.',
+      en: 'Fast, responsive websites that present your brand clearly and convert visitors into leads.',
+      ar: 'مواقع سريعة ومتجاوبة تعرض علامتك بوضوح وتحوّل الزوار إلى عملاء محتملين.',
     },
     description: {
-      en: 'We build premium business websites with clean UX, scalable structure, and strong conversion paths.',
-      ar: 'نطور مواقع احترافية بتجربة استخدام واضحة وهيكل قابل للتوسع ومسارات تحويل فعالة.',
+      en: 'We build business websites with clean UX, scalable structure, Arabic-first content, and strong conversion paths.',
+      ar: 'نطوّر مواقع أعمال احترافية بتجربة استخدام واضحة وبنية قابلة للتوسع ومحتوى عربي أولاً ومسارات تحويل فعّالة.',
     },
     benefits: [
       { en: 'Professional online presence', ar: 'حضور رقمي احترافي' },
       { en: 'Mobile-first experience', ar: 'تجربة ممتازة على الجوال' },
-      { en: 'Lead generation focused pages', ar: 'صفحات مصممة لجذب العملاء' },
+      { en: 'Clear lead generation paths', ar: 'مسارات واضحة لجذب العملاء' },
     ],
     features: [
-      { en: 'Responsive UI', ar: 'واجهة متجاوبة' },
-      { en: 'SEO-ready structure', ar: 'هيكل مناسب لمحركات البحث' },
+      { en: 'Responsive interface', ar: 'واجهة متجاوبة' },
+      { en: 'Arabic and English support', ar: 'دعم العربية والإنجليزية' },
       { en: 'Contact and WhatsApp actions', ar: 'نماذج تواصل وأزرار واتساب' },
     ],
   },
   {
     slug: 'dashboards-admin-panels',
-    icon: 'DP',
-    image: '/assets/images/services/dashboard.jpg',
+    icon: 'DASH',
+    image: '/assets/images/services/dashboard.png',
     title: { en: 'Dashboards & Admin Panels', ar: 'لوحات التحكم والإدارة' },
     shortDescription: {
       en: 'Operational dashboards that turn daily work into clear, measurable workflows.',
-      ar: 'لوحات تشغيل تحول العمل اليومي إلى عمليات واضحة وقابلة للقياس.',
+      ar: 'لوحات تشغيل وإدارة تحوّل العمل اليومي إلى إجراءات واضحة وقابلة للقياس.',
     },
     description: {
-      en: 'Custom dashboards for teams that need visibility, permissions, reports, and daily control.',
-      ar: 'لوحات تحكم مخصصة للفرق التي تحتاج إلى رؤية وصلاحيات وتقارير وتحكم يومي.',
+      en: 'Custom dashboards for teams that need permissions, reports, content management, and daily control.',
+      ar: 'لوحات تحكم مخصصة للفرق التي تحتاج إلى صلاحيات وتقارير وإدارة محتوى وتحكم يومي.',
     },
     benefits: [
       { en: 'Better management visibility', ar: 'رؤية إدارية أفضل' },
@@ -46,21 +46,45 @@ export const services: ServiceItem[] = [
     features: [
       { en: 'Role-based access', ar: 'صلاحيات حسب الدور' },
       { en: 'Charts and reports', ar: 'رسوم وتقارير' },
-      { en: 'Laravel API-ready architecture', ar: 'بنية جاهزة للربط مع Laravel API' },
+      { en: 'API-ready architecture', ar: 'بنية جاهزة للربط البرمجي' },
+    ],
+  },
+  {
+    slug: 'mobile-applications',
+    icon: 'APP',
+    image: '/assets/images/services/mobile-app.png',
+    title: { en: 'Mobile Applications', ar: 'تطبيقات الجوال' },
+    shortDescription: {
+      en: 'Practical app experiences for customers, staff, bookings, orders, and operations.',
+      ar: 'تطبيقات عملية للعملاء والموظفين والحجوزات والطلبات والعمليات.',
+    },
+    description: {
+      en: 'We design and develop mobile app flows that connect smoothly with your business systems and APIs.',
+      ar: 'نصمم ونطور تدفقات تطبيقات جوال ترتبط بسلاسة مع أنظمة عملك والواجهات البرمجية.',
+    },
+    benefits: [
+      { en: 'Closer customer access', ar: 'وصول أقرب للعملاء' },
+      { en: 'Modern brand perception', ar: 'صورة عصرية للعلامة' },
+      { en: 'Streamlined mobile workflows', ar: 'إجراءات مبسطة عبر الجوال' },
+    ],
+    features: [
+      { en: 'App screens', ar: 'شاشات التطبيق' },
+      { en: 'User flows', ar: 'تدفقات المستخدم' },
+      { en: 'API integration planning', ar: 'تخطيط الربط البرمجي' },
     ],
   },
   {
     slug: 'e-commerce',
-    icon: 'EC',
-    image: '/assets/images/services/ecommerce.jpg',
-    title: { en: 'E-commerce', ar: 'المتاجر الإلكترونية' },
+    icon: 'SHOP',
+    image: '/assets/images/services/ecommerce.png',
+    title: { en: 'E-commerce Stores', ar: 'المتاجر الإلكترونية' },
     shortDescription: {
-      en: 'Conversion-focused stores for products, orders, payments, and growth.',
-      ar: 'متاجر تركز على البيع وإدارة المنتجات والطلبات والنمو.',
+      en: 'Online stores built for products, orders, payments, offers, and growth.',
+      ar: 'متاجر إلكترونية لإدارة المنتجات والطلبات والدفع والعروض والنمو.',
     },
     description: {
-      en: 'We design and build online stores with catalog, checkout, order management, and growth features.',
-      ar: 'نصمم ونطور متاجر إلكترونية تشمل الكتالوج والدفع وإدارة الطلبات وخصائص النمو.',
+      en: 'We design and build stores with product catalogs, checkout flows, local market needs, and order management readiness.',
+      ar: 'نصمم ونطور متاجر تشمل كتالوج المنتجات ومسارات الشراء واحتياجات السوق المحلي وجاهزية إدارة الطلبات.',
     },
     benefits: [
       { en: 'Sell online 24/7', ar: 'بيع على مدار الساعة' },
@@ -73,148 +97,52 @@ export const services: ServiceItem[] = [
       { en: 'Offers and coupons', ar: 'عروض وكوبونات' },
     ],
   },
-  {
-    slug: 'crm-systems',
-    icon: 'CRM',
-    image: '/assets/images/services/crm.jpg',
-    title: { en: 'CRM Systems', ar: 'أنظمة إدارة العملاء' },
-    shortDescription: {
-      en: 'Customer pipelines, follow-ups, notes, and reports in one simple system.',
-      ar: 'إدارة العملاء والمتابعات والملاحظات والتقارير في نظام واحد بسيط.',
-    },
-    description: {
-      en: 'CRM systems that help sales and support teams track customers from first contact to repeat business.',
-      ar: 'أنظمة CRM تساعد فرق البيع والدعم على متابعة العملاء من أول تواصل حتى تكرار الشراء.',
-    },
-    benefits: [
-      { en: 'No missed leads', ar: 'عدم فقدان العملاء المحتملين' },
-      { en: 'Clear sales pipeline', ar: 'مسار مبيعات واضح' },
-      { en: 'Better follow-up quality', ar: 'متابعة أفضل للعملاء' },
-    ],
-    features: [
-      { en: 'Lead stages', ar: 'مراحل العملاء' },
-      { en: 'Tasks and reminders', ar: 'مهام وتذكيرات' },
-      { en: 'Customer history', ar: 'سجل العميل' },
-    ],
+ {
+  slug: 'system-integration',
+  icon: 'Integration',
+  image: '/assets/images/services/crm.png',
+  title: { en: 'System Integration', ar: 'تكامل الأنظمة' },
+  shortDescription: {
+    en: 'Connect all your business systems in one platform to exchange data and manage operations easily.',
+    ar: 'ربط جميع أنظمة شركتك في منصة واحدة لتبادل البيانات وإدارة العمليات بسهولة.',
   },
-  {
-    slug: 'landing-pages',
-    icon: 'LP',
-    image: '/assets/images/services/landing-page.jpg',
-    title: { en: 'Landing Pages', ar: 'صفحات الهبوط' },
-    shortDescription: {
-      en: 'Focused campaign pages for ads, offers, launches, and lead capture.',
-      ar: 'صفحات مركزة للحملات والإعلانات والعروض وجمع العملاء.',
-    },
-    description: {
-      en: 'High-impact landing pages designed around one goal: getting visitors to take action.',
-      ar: 'صفحات هبوط مؤثرة مصممة حول هدف واحد: دفع الزائر لاتخاذ إجراء.',
-    },
-    benefits: [
-      { en: 'Better ad performance', ar: 'تحسين أداء الإعلانات' },
-      { en: 'Clear message and offer', ar: 'رسالة وعرض واضحان' },
-      { en: 'Fast launch time', ar: 'إطلاق سريع' },
-    ],
-    features: [
-      { en: 'Hero and CTA sections', ar: 'قسم رئيسي ودعوات إجراء' },
-      { en: 'Lead form', ar: 'نموذج بيانات' },
-      { en: 'Analytics-ready layout', ar: 'تصميم جاهز للتحليلات' },
-    ],
+  description: {
+    en: 'System integration solutions that connect your tools, dashboards, websites, apps, and internal systems into one smooth workflow.',
+    ar: 'حلول تكامل أنظمة تربط الأدوات ولوحات التحكم والمواقع والتطبيقات والأنظمة الداخلية في مسار عمل واحد وسهل.',
   },
+  benefits: [
+    { en: 'Unified business data', ar: 'توحيد بيانات العمل' },
+    { en: 'Less manual work', ar: 'تقليل العمل اليدوي' },
+    { en: 'Faster operations', ar: 'عمليات أسرع وأسهل' },
+  ],
+  features: [
+    { en: 'API integrations', ar: 'تكاملات API' },
+    { en: 'Connected dashboards', ar: 'لوحات تحكم مترابطة' },
+    { en: 'Automated workflows', ar: 'أتمتة مسارات العمل' },
+  ],
+},
   {
-    slug: 'mobile-applications',
-    icon: 'APP',
-    image: '/assets/images/services/mobile-app.jpg',
-    title: { en: 'Mobile Applications', ar: 'تطبيقات الجوال' },
+    slug: 'hosting-maintenance',
+    icon: 'CARE',
+    image: '/assets/images/services/hosting.png',
+    title: { en: 'Hosting & Maintenance', ar: 'الاستضافة والصيانة' },
     shortDescription: {
-      en: 'Practical mobile app experiences for customers, staff, and operations.',
-      ar: 'تجارب تطبيقات عملية للعملاء والموظفين والعمليات.',
+      en: 'Reliable launch, hosting setup, SSL, monitoring, updates, and support after delivery.',
+      ar: 'إطلاق موثوق وإعداد استضافة وSSL ومتابعة وتحديثات ودعم بعد التسليم.',
     },
     description: {
-      en: 'Mobile application interfaces and API-ready flows for businesses that need service on the go.',
-      ar: 'واجهات تطبيقات وتدفقات جاهزة للربط للشركات التي تحتاج خدمة عبر الجوال.',
-    },
-    benefits: [
-      { en: 'Closer customer access', ar: 'وصول أقرب للعملاء' },
-      { en: 'Modern brand perception', ar: 'صورة عصرية للعلامة' },
-      { en: 'Streamlined mobile workflows', ar: 'عمليات مبسطة عبر الجوال' },
-    ],
-    features: [
-      { en: 'App screens', ar: 'شاشات التطبيق' },
-      { en: 'User flows', ar: 'تدفقات المستخدم' },
-      { en: 'API integration planning', ar: 'تخطيط الربط البرمجي' },
-    ],
-  },
-  {
-    slug: 'hosting-domain',
-    icon: 'HD',
-    image: '/assets/images/services/hosting.jpg',
-    title: { en: 'Hosting & Domain', ar: 'الاستضافة والدومين' },
-    shortDescription: {
-      en: 'Reliable launch support for domains, hosting, SSL, and deployment.',
-      ar: 'دعم موثوق للإطلاق يشمل الدومين والاستضافة وSSL والنشر.',
-    },
-    description: {
-      en: 'We help prepare the technical foundation your website needs to go live with confidence.',
-      ar: 'نجهز الأساس التقني الذي يحتاجه موقعك للانطلاق بثقة.',
+      en: 'We prepare the technical foundation, deploy the project, and keep it updated, secure, and reliable.',
+      ar: 'نجهز الأساس التقني وننشر المشروع ونحافظ عليه محدثاً وآمناً وموثوقاً.',
     },
     benefits: [
       { en: 'Smooth launch', ar: 'إطلاق سلس' },
       { en: 'Secure HTTPS setup', ar: 'إعداد HTTPS آمن' },
-      { en: 'Less technical friction', ar: 'تقليل التعقيدات التقنية' },
+      { en: 'Continuous support', ar: 'دعم مستمر' },
     ],
     features: [
-      { en: 'Domain setup', ar: 'إعداد الدومين' },
       { en: 'Hosting configuration', ar: 'تهيئة الاستضافة' },
       { en: 'Deployment checklist', ar: 'قائمة فحص النشر' },
-    ],
-  },
-  {
-    slug: 'maintenance-support',
-    icon: 'MS',
-    image: '/assets/images/services/support.jpg',
-    title: { en: 'Maintenance & Support', ar: 'الصيانة والدعم' },
-    shortDescription: {
-      en: 'Ongoing support, updates, fixes, and improvements after launch.',
-      ar: 'دعم مستمر وتحديثات وإصلاحات وتحسينات بعد الإطلاق.',
-    },
-    description: {
-      en: 'Monthly support plans to keep your digital presence healthy, current, and reliable.',
-      ar: 'خطط دعم شهرية للحفاظ على حضورك الرقمي محدثًا وموثوقًا.',
-    },
-    benefits: [
-      { en: 'Peace of mind', ar: 'راحة بال' },
-      { en: 'Continuous improvements', ar: 'تحسينات مستمرة' },
-      { en: 'Fast issue handling', ar: 'معالجة سريعة للمشكلات' },
-    ],
-    features: [
-      { en: 'Content updates', ar: 'تحديثات محتوى' },
-      { en: 'Bug fixes', ar: 'إصلاح أخطاء' },
-      { en: 'Performance checks', ar: 'فحص الأداء' },
-    ],
-  },
-  {
-    slug: 'seo-basics',
-    icon: 'SEO',
-    image: '/assets/images/services/seo.jpg',
-    title: { en: 'SEO Basics', ar: 'أساسيات تحسين محركات البحث' },
-    shortDescription: {
-      en: 'Core SEO setup to make your website clearer for search engines and users.',
-      ar: 'إعدادات SEO أساسية تجعل موقعك أوضح لمحركات البحث والمستخدمين.',
-    },
-    description: {
-      en: 'Foundational SEO improvements for page structure, metadata, speed, and content clarity.',
-      ar: 'تحسينات SEO تأسيسية لهيكل الصفحات والبيانات الوصفية والسرعة ووضوح المحتوى.',
-    },
-    benefits: [
-      { en: 'Better discoverability', ar: 'قابلية ظهور أفضل' },
-      { en: 'Cleaner page structure', ar: 'هيكل صفحات أنظف' },
-      { en: 'Improved user trust', ar: 'ثقة أعلى للمستخدم' },
-    ],
-    features: [
-      { en: 'Meta titles and descriptions', ar: 'عناوين ووصف الصفحات' },
-      { en: 'Semantic sections', ar: 'أقسام منظمة دلاليًا' },
-      { en: 'Speed-aware assets', ar: 'أصول تراعي سرعة التحميل' },
+      { en: 'Bug fixes and content updates', ar: 'إصلاحات وتحديثات محتوى' },
     ],
   },
 ];

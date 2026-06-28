@@ -41,6 +41,7 @@ type CopyKey =
   | 'technologies'
   | 'result'
   | 'demo'
+  | 'visitProject'
   | 'startsFrom'
   | 'contactTitle'
   | 'contactText'
@@ -62,7 +63,7 @@ const copy: Record<CopyKey, LocalizedText> = {
   tagline: { en: 'Your Partner in Digital Growth', ar: 'شريكك في النمو الرقمي' },
   arabicSlogan: {
     en: 'We provide digital solutions that help companies increase sales, improve management, and grow their digital presence.',
-    ar: 'نقدم حلولًا رقمية تساعد الشركات على زيادة المبيعات وتحسين الإدارة وتطوير حضورها الرقمي.',
+    ar: 'نقدم حلولاً رقمية تساعد الشركات على زيادة المبيعات وتحسين الإدارة وتطوير حضورها الرقمي.',
   },
   startProject: { en: 'Start a Project', ar: 'ابدأ مشروعك' },
   viewServices: { en: 'View Services', ar: 'تصفح الخدمات' },
@@ -73,9 +74,9 @@ const copy: Record<CopyKey, LocalizedText> = {
   emailUs: { en: 'Email Us', ar: 'راسلنا' },
   servicesPreview: { en: 'Services Built for Growth', ar: 'خدمات مصممة للنمو' },
   servicesPreviewText: {
-    en: 'From polished websites to management dashboards, Nova Digital builds practical digital systems for ambitious businesses.',
-    ar: 'من المواقع الاحترافية إلى لوحات الإدارة، تطور Nova Digital أنظمة رقمية عملية للشركات الطموحة.',
-  },
+  en: 'From websites, dashboards, and mobile apps to online stores, system integration, hosting, and maintenance, Nova Digital builds practical systems for ambitious businesses.',
+  ar: 'من تطوير المواقع ولوحات التحكم وتطبيقات الجوال إلى المتاجر الإلكترونية وتكامل الأنظمة والاستضافة والصيانة، نبني حلولاً عملية للشركات الطموحة.',
+},
   whyNova: { en: 'Why Nova Digital', ar: 'لماذا Nova Digital' },
   portfolioPreview: { en: 'Selected Work', ar: 'نماذج من الأعمال' },
   industries: { en: 'Industries We Serve', ar: 'القطاعات التي نخدمها' },
@@ -88,7 +89,7 @@ const copy: Record<CopyKey, LocalizedText> = {
   ready: { en: 'Ready to grow digitally?', ar: 'جاهز للنمو الرقمي؟' },
   readyText: {
     en: 'Tell us what you need, and we will shape a clean digital solution around your goals.',
-    ar: 'أخبرنا بما تحتاجه وسنصمم حلًا رقميًا واضحًا يناسب أهدافك.',
+    ar: 'أخبرنا بما تحتاجه وسنصمم حلاً رقمياً واضحاً يناسب أهدافك.',
   },
   allServices: { en: 'All Services', ar: 'كل الخدمات' },
   serviceDetails: { en: 'Service Details', ar: 'تفاصيل الخدمة' },
@@ -100,6 +101,7 @@ const copy: Record<CopyKey, LocalizedText> = {
   technologies: { en: 'Technologies', ar: 'التقنيات' },
   result: { en: 'Result', ar: 'النتيجة' },
   demo: { en: 'Demo Link', ar: 'رابط العرض' },
+  visitProject: { en: 'Visit Project', ar: 'زيارة المشروع' },
   startsFrom: { en: 'Starts From', ar: 'يبدأ من' },
   contactTitle: { en: 'Let us build your next digital move', ar: 'دعنا نبني خطوتك الرقمية القادمة' },
   contactText: {
@@ -118,7 +120,7 @@ const copy: Record<CopyKey, LocalizedText> = {
 @Injectable({ providedIn: 'root' })
 export class LanguageService {
   private readonly document = inject(DOCUMENT);
-  readonly current = signal<Lang>((localStorage.getItem('nova-lang') as Lang) || 'en');
+  readonly current = signal<Lang>((localStorage.getItem('nova-lang') as Lang) || 'ar');
 
   constructor() {
     effect(() => {
