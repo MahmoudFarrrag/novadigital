@@ -32,7 +32,7 @@ import { CtaSection } from '../../shared/components/cta-section/cta-section';
 <strong>{{ lang.current() === 'en' ? 'Web • Dashboards • Apps' : 'مواقع • لوحات تحكم • تطبيقات' }}</strong>
           </div>
           <div class="metric-card"><strong>6</strong><span>{{ lang.t('services') }}</span></div>
-          <div class="metric-card"><strong>9</strong><span>{{ lang.t('portfolio') }}</span></div>
+          <div class="metric-card"><strong>17</strong><span>{{ lang.t('portfolio') }}</span></div>
           <div class="metric-card accent"><strong>24/7</strong><span>{{ lang.t('contact') }}</span></div>
         </div>
       </div>
