@@ -117,31 +117,41 @@ export class Home {
   }
 
   get whyItems() {
-    return this.lang.current() === 'en'
-      ? [
-          { number: '01', title: 'Responsive on all devices', text: 'Websites and systems are designed to work cleanly on mobile, tablet, and desktop.' },
-          { number: '02', title: 'Modern UI with smooth motion', text: 'Interfaces feel polished, friendly, and current without distracting from the message.' },
-          { number: '03', title: 'Arabic-first, English-ready', text: 'Content and layouts respect RTL from the start and remain ready for bilingual growth.' },
-          { number: '04', title: 'Fast and clean performance', text: 'Pages are structured for quick loading, readable code, and a smoother user experience.' },
-          { number: '05', title: 'Business-focused solutions', text: 'Every section is built around real goals: trust, contact, sales, management, or growth.' },
-          { number: '06', title: 'Clear user experience', text: 'Visitors can understand your offer quickly and know exactly what action to take next.' },
-          { number: '07', title: 'Scalable code structure', text: 'Reusable components and organized data make future pages, modules, and APIs easier to add.' },
-          { number: '08', title: 'Affordable value', text: 'Pricing stays practical for startups and small to medium businesses while protecting quality.' },
-          { number: '09', title: 'Support after delivery', text: 'Nova Digital can help with updates, fixes, hosting, maintenance, and future improvements.' },
-          { number: '10', title: 'Custom, not generic', text: 'Solutions are shaped around your brand, workflow, and audience instead of generic templates.' },
-        ]
-      : [
-          { number: '01', title: 'تصميم متجاوب لكل الأجهزة', text: 'المواقع والأنظمة تعمل بوضوح على الجوال والتابلت وسطح المكتب.' },
-          { number: '02', title: 'واجهة عصرية وحركات سلسة', text: 'تجربة بصرية حديثة ومريحة بدون تشتيت عن الرسالة الأساسية.' },
-          { number: '03', title: 'عربي أولاً وجاهز للإنجليزية', text: 'المحتوى والتخطيط يدعمان RTL من البداية مع جاهزية للنمو ثنائي اللغة.' },
-          { number: '04', title: 'تحميل سريع وأداء نظيف', text: 'بنية صفحات تساعد على السرعة ووضوح الكود وتجربة استخدام أفضل.' },
-          { number: '05', title: 'حلول تخدم أهداف العمل', text: 'كل قسم يخدم هدفاً واضحاً مثل الثقة أو التواصل أو البيع أو الإدارة أو النمو.' },
-          { number: '06', title: 'تجربة مستخدم واضحة', text: 'الزائر يفهم عرضك بسرعة ويعرف ما الخطوة التالية التي يجب اتخاذها.' },
-          { number: '07', title: 'بنية كود قابلة للتوسع', text: 'مكونات منظمة وبيانات واضحة تسهل إضافة صفحات ووحدات وربط APIs لاحقاً.' },
-          { number: '08', title: 'قيمة مناسبة مقابل التكلفة', text: 'أسعار عملية للشركات الناشئة والصغيرة والمتوسطة مع الحفاظ على الجودة.' },
-          { number: '09', title: 'دعم وصيانة بعد التسليم', text: 'نساعد في التحديثات والإصلاحات والاستضافة والصيانة والتحسينات المستقبلية.' },
-          { number: '10', title: 'حلول مخصصة وليست قوالب عامة', text: 'كل حل يتم تشكيله حول علامتك ومسار عملك وجمهورك، وليس كقالب مكرر.' },
-        ];
+   return this.lang.current() === 'en'
+  ? [
+      {
+        number: '01',
+        title: 'Modern & Responsive',
+        text: 'Beautiful, responsive websites and applications with fast performance, smooth animations, and an excellent experience across all devices.',
+      },
+      {
+        number: '02',
+        title: 'Built for Business',
+        text: 'Every solution is designed to help your business grow through clear user journeys, scalable architecture, and practical business-focused features.',
+      },
+      {
+        number: '03',
+        title: 'Affordable & Reliable',
+        text: 'Flexible pricing, custom development, and continuous support after launch to keep your digital products secure and up to date.',
+      },
+    ]
+  : [
+      {
+        number: '01',
+        title: 'تصميم عصري ومتجاوب',
+        text: 'مواقع وتطبيقات حديثة تعمل بكفاءة على جميع الأجهزة مع سرعة عالية وحركات سلسة وتجربة استخدام احترافية.',
+      },
+      {
+        number: '02',
+        title: 'حلول تخدم نمو أعمالك',
+        text: 'نطوّر حلولاً مخصصة تساعد على زيادة المبيعات، وتحسين الإدارة، وتبسيط العمليات، مع بنية قابلة للتوسع مستقبلاً.',
+      },
+      {
+        number: '03',
+        title: 'أسعار مرنة ودعم مستمر',
+        text: 'أسعار مناسبة، تطوير مخصص، ودعم فني وصيانة بعد التسليم لضمان استقرار مشروعك ونموه.',
+      },
+    ];
   }
 
   get process() {
