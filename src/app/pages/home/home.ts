@@ -112,21 +112,35 @@ export class Home {
 
   get whyText(): string {
     return this.lang.current() === 'en'
-      ? 'We combine premium interface design, practical business thinking, and clean Angular architecture so the website can grow into a full digital platform.'
-      : 'نجمع بين التصميم الاحترافي وفهم الأعمال وبنية Angular نظيفة حتى يستطيع الموقع النمو لاحقًا إلى منصة رقمية كاملة.';
+      ? 'Nova Digital builds practical digital solutions that look modern, load fast, and support real business goals without unnecessary complexity.'
+      : 'Nova Digital تبني حلولاً رقمية عملية بتصميم عصري وأداء سريع وتركيز واضح على أهداف العمل بدون تعقيد غير ضروري.';
   }
 
   get whyItems() {
     return this.lang.current() === 'en'
       ? [
-          { number: '01', title: 'Business-first UX', text: 'Every page is structured around trust, clarity, and conversion.' },
-          { number: '02', title: 'Scalable code', text: 'Reusable components and local data files are ready for API integration.' },
-          { number: '03', title: 'Bilingual by design', text: 'Arabic and English layouts adapt correctly with RTL and LTR direction.' },
+          { number: '01', title: 'Responsive on all devices', text: 'Websites and systems are designed to work cleanly on mobile, tablet, and desktop.' },
+          { number: '02', title: 'Modern UI with smooth motion', text: 'Interfaces feel polished, friendly, and current without distracting from the message.' },
+          { number: '03', title: 'Arabic-first, English-ready', text: 'Content and layouts respect RTL from the start and remain ready for bilingual growth.' },
+          { number: '04', title: 'Fast and clean performance', text: 'Pages are structured for quick loading, readable code, and a smoother user experience.' },
+          { number: '05', title: 'Business-focused solutions', text: 'Every section is built around real goals: trust, contact, sales, management, or growth.' },
+          { number: '06', title: 'Clear user experience', text: 'Visitors can understand your offer quickly and know exactly what action to take next.' },
+          { number: '07', title: 'Scalable code structure', text: 'Reusable components and organized data make future pages, modules, and APIs easier to add.' },
+          { number: '08', title: 'Affordable value', text: 'Pricing stays practical for startups and small to medium businesses while protecting quality.' },
+          { number: '09', title: 'Support after delivery', text: 'Nova Digital can help with updates, fixes, hosting, maintenance, and future improvements.' },
+          { number: '10', title: 'Custom, not generic', text: 'Solutions are shaped around your brand, workflow, and audience instead of generic templates.' },
         ]
       : [
-          { number: '01', title: 'تجربة تخدم الأعمال', text: 'كل صفحة مبنية حول الثقة والوضوح والتحويل.' },
-          { number: '02', title: 'كود قابل للتوسع', text: 'مكونات قابلة لإعادة الاستخدام وملفات بيانات جاهزة للربط.' },
-          { number: '03', title: 'ثنائي اللغة من الأساس', text: 'تخطيط عربي وإنجليزي يعمل بشكل صحيح RTL وLTR.' },
+          { number: '01', title: 'تصميم متجاوب لكل الأجهزة', text: 'المواقع والأنظمة تعمل بوضوح على الجوال والتابلت وسطح المكتب.' },
+          { number: '02', title: 'واجهة عصرية وحركات سلسة', text: 'تجربة بصرية حديثة ومريحة بدون تشتيت عن الرسالة الأساسية.' },
+          { number: '03', title: 'عربي أولاً وجاهز للإنجليزية', text: 'المحتوى والتخطيط يدعمان RTL من البداية مع جاهزية للنمو ثنائي اللغة.' },
+          { number: '04', title: 'تحميل سريع وأداء نظيف', text: 'بنية صفحات تساعد على السرعة ووضوح الكود وتجربة استخدام أفضل.' },
+          { number: '05', title: 'حلول تخدم أهداف العمل', text: 'كل قسم يخدم هدفاً واضحاً مثل الثقة أو التواصل أو البيع أو الإدارة أو النمو.' },
+          { number: '06', title: 'تجربة مستخدم واضحة', text: 'الزائر يفهم عرضك بسرعة ويعرف ما الخطوة التالية التي يجب اتخاذها.' },
+          { number: '07', title: 'بنية كود قابلة للتوسع', text: 'مكونات منظمة وبيانات واضحة تسهل إضافة صفحات ووحدات وربط APIs لاحقاً.' },
+          { number: '08', title: 'قيمة مناسبة مقابل التكلفة', text: 'أسعار عملية للشركات الناشئة والصغيرة والمتوسطة مع الحفاظ على الجودة.' },
+          { number: '09', title: 'دعم وصيانة بعد التسليم', text: 'نساعد في التحديثات والإصلاحات والاستضافة والصيانة والتحسينات المستقبلية.' },
+          { number: '10', title: 'حلول مخصصة وليست قوالب عامة', text: 'كل حل يتم تشكيله حول علامتك ومسار عملك وجمهورك، وليس كقالب مكرر.' },
         ];
   }
 

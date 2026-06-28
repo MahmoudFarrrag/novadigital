@@ -11,8 +11,13 @@ export interface ServiceItem {
   title: LocalizedText;
   shortDescription: LocalizedText;
   description: LocalizedText;
+  whyMatters: LocalizedText;
+  whoNeeds: LocalizedText[];
+  delivers: LocalizedText[];
   benefits: LocalizedText[];
   features: LocalizedText[];
+  ctaTitle: LocalizedText;
+  ctaText: LocalizedText;
   image: string;
 }
 
@@ -23,6 +28,10 @@ export interface ProjectItem {
   category: LocalizedText;
   problem: LocalizedText;
   solution: LocalizedText;
+  overview: LocalizedText;
+  built: LocalizedText[];
+  keyFeatures: LocalizedText[];
+  businessBenefits: LocalizedText[];
   technologies: string[];
   result: LocalizedText;
   demoLink: string;

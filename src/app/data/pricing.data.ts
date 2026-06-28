@@ -4,15 +4,15 @@ export const pricingPlans: PricingPlan[] = [
   {
     slug: 'portfolio-website',
     name: { en: 'Portfolio Website', ar: 'موقع بورتفوليو' },
-    price: { en: 'Starts from 3500 EGP', ar: 'يبدأ من 3500 جنيه' },
+    price: { en: 'Starts from 1500 EGP', ar: 'يبدأ من 1500 جنيه' },
     description: {
-      en: 'A clean personal website to showcase your work, experience, services, and contact details.',
-      ar: 'موقع شخصي أنيق لعرض أعمالك وخبراتك وخدماتك وطرق التواصل معك.',
+      en: 'A professional personal website for freelancers and professionals who want to present their work, CV, services, projects, and contact details with confidence.',
+      ar: 'موقع شخصي احترافي للمستقلين والمحترفين لعرض الأعمال والسيرة الذاتية والخدمات والمشاريع وطرق التواصل بثقة.',
     },
     features: [
-      { en: 'Personal profile section', ar: 'قسم تعريفي شخصي' },
-      { en: 'Projects showcase', ar: 'عرض الأعمال والمشاريع' },
-      { en: 'Contact links', ar: 'روابط ووسائل تواصل' },
+      { en: 'CV download, skills, services, projects, and testimonials', ar: 'تحميل السيرة الذاتية والمهارات والخدمات والمشاريع وآراء العملاء' },
+      { en: 'Phone, WhatsApp, social links, and contact form', ar: 'هاتف وواتساب وروابط تواصل اجتماعي ونموذج تواصل' },
+      { en: 'Responsive personal brand presentation', ar: 'عرض متجاوب واحترافي للعلامة الشخصية' },
     ],
   },
   {
@@ -20,13 +20,13 @@ export const pricingPlans: PricingPlan[] = [
     name: { en: 'Business Website', ar: 'موقع شركة' },
     price: { en: 'Starts from 5000 EGP', ar: 'يبدأ من 5000 جنيه' },
     description: {
-      en: 'A professional website for companies, clinics, offices, restaurants, and service providers.',
-      ar: 'موقع احترافي للشركات والعيادات والمكاتب والمطاعم ومقدمي الخدمات.',
+      en: 'A polished business website for companies, clinics, offices, restaurants, and service providers that need trust, clarity, and direct enquiries.',
+      ar: 'موقع أعمال مصقول للشركات والعيادات والمكاتب والمطاعم ومقدمي الخدمات ممن يحتاجون إلى الثقة والوضوح وطلبات تواصل مباشرة.',
     },
     features: [
-      { en: 'Responsive pages', ar: 'صفحات متجاوبة' },
-      { en: 'Services and about sections', ar: 'أقسام للخدمات ومن نحن' },
-      { en: 'Contact and WhatsApp actions', ar: 'أزرار تواصل وواتساب' },
+      { en: 'Responsive pages with clear brand presentation', ar: 'صفحات متجاوبة مع عرض واضح للعلامة' },
+      { en: 'Services, about, contact, WhatsApp, and SEO-ready structure', ar: 'خدمات ومن نحن وتواصل وواتساب وبنية جاهزة لـ SEO' },
+      { en: 'Conversion-focused layout for real enquiries', ar: 'تخطيط يركز على تحويل الزوار إلى طلبات فعلية' },
     ],
   },
   {
@@ -34,13 +34,13 @@ export const pricingPlans: PricingPlan[] = [
     name: { en: 'E-commerce Store', ar: 'متجر إلكتروني' },
     price: { en: 'Starts from 10000 EGP', ar: 'يبدأ من 10000 جنيه' },
     description: {
-      en: 'An online store for displaying products, managing orders, offers, and customer purchase flow.',
-      ar: 'متجر إلكتروني لعرض المنتجات وإدارة الطلبات والعروض وتجربة شراء واضحة للعملاء.',
+      en: 'An online store for businesses that need organized products, categories, offers, checkout flows, and order management readiness.',
+      ar: 'متجر إلكتروني للأعمال التي تحتاج إلى منتجات منظمة وتصنيفات وعروض ومسار شراء وجاهزية لإدارة الطلبات.',
     },
     features: [
-      { en: 'Products and categories', ar: 'منتجات وتصنيفات' },
-      { en: 'Cart and checkout flow', ar: 'سلة شراء ومسار طلب' },
-      { en: 'Offers and order management', ar: 'عروض وإدارة طلبات' },
+      { en: 'Products, categories, cart, checkout, and order flow', ar: 'منتجات وتصنيفات وسلة ومسار شراء وطلبات' },
+      { en: 'Offers, coupons, featured products, and customer actions', ar: 'عروض وكوبونات ومنتجات مميزة وإجراءات للعملاء' },
+      { en: 'Ready for dashboard, payment, and shipping integrations', ar: 'جاهز للربط مع لوحة التحكم والدفع والشحن' },
     ],
   },
   {
@@ -48,13 +48,13 @@ export const pricingPlans: PricingPlan[] = [
     name: { en: 'Dashboards & Custom Systems', ar: 'لوحات تحكم وأنظمة مخصصة' },
     price: { en: 'Starts from 20000 EGP', ar: 'تبدأ من 20000 جنيه' },
     description: {
-      en: 'Custom dashboards and internal systems for managing users, reports, operations, and daily workflows.',
-      ar: 'لوحات تحكم وأنظمة داخلية مخصصة لإدارة المستخدمين والتقارير والعمليات اليومية.',
+      en: 'Custom dashboards and internal systems for businesses that need users, permissions, reports, operations, and daily workflow control.',
+      ar: 'لوحات تحكم وأنظمة داخلية مخصصة للأعمال التي تحتاج إلى مستخدمين وصلاحيات وتقارير وعمليات وتحكم يومي.',
     },
     features: [
-      { en: 'User roles and permissions', ar: 'صلاحيات وأدوار مستخدمين' },
-      { en: 'Reports and data tables', ar: 'تقارير وجداول بيانات' },
-      { en: 'API-ready modules', ar: 'وحدات جاهزة للربط' },
+      { en: 'Roles, permissions, tables, filters, and status actions', ar: 'أدوار وصلاحيات وجداول وفلاتر وإجراءات حالة' },
+      { en: 'Reports, summaries, content management, and modules', ar: 'تقارير وملخصات وإدارة محتوى ووحدات تشغيل' },
+      { en: 'API-ready and scalable structure', ar: 'بنية قابلة للتوسع وجاهزة للربط البرمجي' },
     ],
   },
   {
@@ -62,13 +62,13 @@ export const pricingPlans: PricingPlan[] = [
     name: { en: 'Mobile Application', ar: 'تطبيق جوال' },
     price: { en: 'Starts from 25000 EGP', ar: 'يبدأ من 25000 جنيه' },
     description: {
-      en: 'Mobile applications for customers, employees, bookings, orders, and business operations.',
-      ar: 'تطبيقات جوال للعملاء والموظفين والحجوزات والطلبات والعمليات.',
+      en: 'Mobile applications for customer accounts, bookings, orders, requests, staff workflows, and business services that need mobile access.',
+      ar: 'تطبيقات جوال لحسابات العملاء والحجوزات والطلبات وطلبات الخدمة ومسارات الموظفين والخدمات التي تحتاج وصولاً عبر الجوال.',
     },
     features: [
-      { en: 'App UX screens', ar: 'شاشات تجربة المستخدم' },
-      { en: 'Customer account flow', ar: 'مسار حساب العميل' },
-      { en: 'API integration planning', ar: 'تخطيط الربط مع API' },
+      { en: 'App UX screens and customer journeys', ar: 'شاشات تجربة مستخدم ومسارات عملاء' },
+      { en: 'Accounts, forms, requests, bookings, or order flows', ar: 'حسابات ونماذج وطلبات وحجوزات أو مسارات شراء' },
+      { en: 'Backend, dashboard, and API integration planning', ar: 'تخطيط للربط مع الخلفية ولوحة التحكم وAPI' },
     ],
   },
   {
@@ -76,13 +76,13 @@ export const pricingPlans: PricingPlan[] = [
     name: { en: 'Hosting & Maintenance', ar: 'الاستضافة والصيانة' },
     price: { en: 'Starts from 1000 EGP monthly', ar: 'تبدأ من 1000 جنيه شهرياً' },
     description: {
-      en: 'Hosting setup, SSL, updates, fixes, content changes, monitoring, and technical support after delivery.',
-      ar: 'إعداد استضافة وSSL وتحديثات وإصلاحات وتعديلات محتوى ومتابعة ودعم تقني بعد التسليم.',
+      en: 'Support plans for hosting setup, SSL, deployment, monitoring, fixes, updates, content edits, and post-delivery technical support.',
+      ar: 'خطط دعم لإعداد الاستضافة وSSL والنشر والمتابعة والإصلاحات والتحديثات وتعديلات المحتوى والدعم الفني بعد التسليم.',
     },
     features: [
-      { en: 'Hosting and SSL setup', ar: 'إعداد الاستضافة وSSL' },
-      { en: 'Bug fixes and updates', ar: 'إصلاح أخطاء وتحديثات' },
-      { en: 'Content edits and support', ar: 'تعديلات محتوى ودعم فني' },
+      { en: 'Hosting, domain, SSL, deployment, and backups', ar: 'استضافة ودومين وSSL ونشر ونسخ احتياطي' },
+      { en: 'Bug fixes, monitoring, updates, and content edits', ar: 'إصلاح أخطاء ومتابعة وتحديثات وتعديلات محتوى' },
+      { en: 'Flexible monthly support according to project size', ar: 'دعم شهري مرن حسب حجم المشروع' },
     ],
   },
 ];

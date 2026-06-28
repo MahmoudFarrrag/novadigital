@@ -24,6 +24,26 @@ import { CtaSection } from '../../shared/components/cta-section/cta-section';
       </section>
       <section class="section container detail-lists">
         <article class="glass-card content-card">
+          <h2>{{ lang.t('whyThisServiceMatters') }}</h2>
+          <p>{{ lang.text(item.whyMatters) }}</p>
+        </article>
+        <article class="glass-card content-card">
+          <h2>{{ lang.t('whoNeedsThisService') }}</h2>
+          <ul class="check-list">
+            @for (target of item.whoNeeds; track lang.text(target)) {
+              <li>{{ lang.text(target) }}</li>
+            }
+          </ul>
+        </article>
+        <article class="glass-card content-card">
+          <h2>{{ lang.t('whatNovaDelivers') }}</h2>
+          <ul class="check-list">
+            @for (deliverable of item.delivers; track lang.text(deliverable)) {
+              <li>{{ lang.text(deliverable) }}</li>
+            }
+          </ul>
+        </article>
+        <article class="glass-card content-card">
           <h2>{{ lang.t('benefits') }}</h2>
           <ul class="check-list">
             @for (benefit of item.benefits; track lang.text(benefit)) {
@@ -38,6 +58,12 @@ import { CtaSection } from '../../shared/components/cta-section/cta-section';
               <li>{{ lang.text(feature) }}</li>
             }
           </ul>
+        </article>
+        <article class="glass-card content-card">
+          <h2>{{ lang.t('readyToDiscuss') }}</h2>
+          <h3>{{ lang.text(item.ctaTitle) }}</h3>
+          <p>{{ lang.text(item.ctaText) }}</p>
+          <a class="btn btn-primary" routerLink="/contact">{{ lang.t('startProject') }}</a>
         </article>
       </section>
       <section class="section container"><app-cta-section /></section>

@@ -27,12 +27,32 @@ import { CtaSection } from '../../shared/components/cta-section/cta-section';
       <section class="section container project-detail-grid">
         <article class="glass-card content-card">
           <span class="pill-label">{{ lang.text(item.category) }}</span>
-          <h2>{{ lang.t('problem') }}</h2>
-          <p>{{ lang.text(item.problem) }}</p>
+          <h2>{{ lang.t('overview') }}</h2>
+          <p>{{ lang.text(item.overview) }}</p>
         </article>
         <article class="glass-card content-card">
-          <h2>{{ lang.t('solution') }}</h2>
-          <p>{{ lang.text(item.solution) }}</p>
+          <h2>{{ lang.t('whatWasBuilt') }}</h2>
+          <ul class="check-list">
+            @for (builtItem of item.built; track lang.text(builtItem)) {
+              <li>{{ lang.text(builtItem) }}</li>
+            }
+          </ul>
+        </article>
+        <article class="glass-card content-card">
+          <h2>{{ lang.t('keyFeatures') }}</h2>
+          <ul class="check-list">
+            @for (feature of item.keyFeatures; track lang.text(feature)) {
+              <li>{{ lang.text(feature) }}</li>
+            }
+          </ul>
+        </article>
+        <article class="glass-card content-card">
+          <h2>{{ lang.t('businessBenefits') }}</h2>
+          <ul class="check-list">
+            @for (benefit of item.businessBenefits; track lang.text(benefit)) {
+              <li>{{ lang.text(benefit) }}</li>
+            }
+          </ul>
         </article>
         <article class="glass-card content-card">
           <h2>{{ lang.t('technologies') }}</h2>
@@ -43,7 +63,7 @@ import { CtaSection } from '../../shared/components/cta-section/cta-section';
           </div>
         </article>
         <article class="glass-card content-card">
-          <h2>{{ lang.t('result') }}</h2>
+          <h2>{{ lang.t('finalResult') }}</h2>
           <p>{{ lang.text(item.result) }}</p>
         </article>
       </section>

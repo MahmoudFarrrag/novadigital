@@ -36,6 +36,15 @@ type CopyKey =
   | 'benefits'
   | 'features'
   | 'projectDetails'
+  | 'overview'
+  | 'whatWasBuilt'
+  | 'keyFeatures'
+  | 'businessBenefits'
+  | 'finalResult'
+  | 'whyThisServiceMatters'
+  | 'whoNeedsThisService'
+  | 'whatNovaDelivers'
+  | 'readyToDiscuss'
   | 'problem'
   | 'solution'
   | 'technologies'
@@ -96,6 +105,15 @@ const copy: Record<CopyKey, LocalizedText> = {
   benefits: { en: 'Benefits', ar: 'الفوائد' },
   features: { en: 'Features', ar: 'المميزات' },
   projectDetails: { en: 'Project Details', ar: 'تفاصيل المشروع' },
+  overview: { en: 'Overview', ar: 'نظرة عامة' },
+  whatWasBuilt: { en: 'What Was Built', ar: 'ما الذي تم بناؤه' },
+  keyFeatures: { en: 'Key Features', ar: 'أهم الخصائص' },
+  businessBenefits: { en: 'Business Benefits', ar: 'الفوائد التجارية' },
+  finalResult: { en: 'Final Result', ar: 'النتيجة النهائية' },
+  whyThisServiceMatters: { en: 'Why This Service Matters', ar: 'لماذا هذه الخدمة مهمة' },
+  whoNeedsThisService: { en: 'Who Needs This Service', ar: 'من يحتاج هذه الخدمة' },
+  whatNovaDelivers: { en: 'What Nova Digital Delivers', ar: 'ما الذي تقدمه Nova Digital' },
+  readyToDiscuss: { en: 'Ready to discuss your project?', ar: 'جاهز لمناقشة مشروعك؟' },
   problem: { en: 'Problem', ar: 'التحدي' },
   solution: { en: 'Solution', ar: 'الحل' },
   technologies: { en: 'Technologies', ar: 'التقنيات' },
