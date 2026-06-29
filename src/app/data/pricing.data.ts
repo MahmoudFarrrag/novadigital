@@ -4,7 +4,7 @@ export const pricingPlans: PricingPlan[] = [
   {
     slug: 'portfolio-website',
     name: { en: 'Portfolio Website', ar: 'موقع بورتفوليو' },
-    price: { en: 'Starts from 1500 EGP', ar: 'يبدأ من 1500 جنيه' },
+    price: { en: 'Starts from 3000 EGP', ar: 'يبدأ من 3000 جنيه' },
     description: {
       en: 'A professional personal website for freelancers and professionals who want to present their work, CV, services, projects, and contact details with confidence.',
       ar: 'موقع شخصي احترافي للمستقلين والمحترفين لعرض الأعمال والسيرة الذاتية والخدمات والمشاريع وطرق التواصل بثقة.',
@@ -18,12 +18,12 @@ export const pricingPlans: PricingPlan[] = [
   {
     slug: 'business-website',
     name: { en: 'Business Website', ar: 'موقع شركة' },
-    price: { en: 'Starts from 5000 EGP', ar: 'يبدأ من 5000 جنيه' },
+    price: { en: 'Starts from 7500 EGP', ar: 'يبدأ من 7500 جنيه' },
     description: {
       en: 'A polished business website for companies, clinics, offices, restaurants, and service providers that need trust, clarity, and direct enquiries.',
       ar: 'موقع أعمال مصقول للشركات والعيادات والمكاتب والمطاعم ومقدمي الخدمات ممن يحتاجون إلى الثقة والوضوح وطلبات تواصل مباشرة.',
     },
-    features: [
+    features: [ 
       { en: 'Responsive pages with clear brand presentation', ar: 'صفحات متجاوبة مع عرض واضح للعلامة' },
       { en: 'Services, about, contact, WhatsApp, and SEO-ready structure', ar: 'خدمات ومن نحن وتواصل وواتساب وبنية جاهزة لـ SEO' },
       { en: 'Conversion-focused layout for real enquiries', ar: 'تخطيط يركز على تحويل الزوار إلى طلبات فعلية' },
@@ -32,7 +32,7 @@ export const pricingPlans: PricingPlan[] = [
   {
     slug: 'e-commerce',
     name: { en: 'E-commerce Store', ar: 'متجر إلكتروني' },
-    price: { en: 'Starts from 10000 EGP', ar: 'يبدأ من 10000 جنيه' },
+    price: { en: 'Starts from 15000 EGP', ar: 'يبدأ من 15000 جنيه' },
     description: {
       en: 'An online store for businesses that need organized products, categories, offers, checkout flows, and order management readiness.',
       ar: 'متجر إلكتروني للأعمال التي تحتاج إلى منتجات منظمة وتصنيفات وعروض ومسار شراء وجاهزية لإدارة الطلبات.',

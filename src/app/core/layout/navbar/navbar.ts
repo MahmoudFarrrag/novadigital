@@ -9,7 +9,7 @@ import { LanguageService } from '../../services/language.service';
     <header class="site-header">
       <nav class="nav container" aria-label="Main navigation">
         <a class="brand" routerLink="/" (click)="closeMenu()">
-          <img src="assets/images/logo/nova.PNG" alt="Nova Digital logo" (error)="hideImage($event)" />
+          <img src="assets/images/logo/nova.png" alt="Nova Digital logo" (error)="hideImage($event)" />
           <span>Nova Digital</span>
         </a>
 

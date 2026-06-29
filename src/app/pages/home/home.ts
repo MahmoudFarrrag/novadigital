@@ -16,7 +16,7 @@ import { CtaSection } from '../../shared/components/cta-section/cta-section';
     <section class="hero">
       <div class="container hero-grid">
         <div class="hero-copy reveal">
-          <img class="hero-logo" src="assets/images/logo/nova.PNG" alt="Nova Digital logo" (error)="hideImage($event)" />
+          <img class="hero-logo" src="assets/images/logo/nova.png" alt="Nova Digital logo" (error)="hideImage($event)" />
           <span class="eyebrow">Nova Digital</span>
           <h1>Nova Digital</h1>
           <h2>{{ lang.t('tagline') }}</h2>
